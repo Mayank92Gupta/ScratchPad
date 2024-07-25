@@ -98,7 +98,7 @@ export default function PreviewArea({ inputValues }) {
 
         <div>
           <button onClick={createSprite} className="bg-red-400 text-white px-3 py-2 mb-2 ml-4 rounded">
-            <FontAwesomeIcon icon={faClone} /> 
+            <FontAwesomeIcon icon={faClone} /> Add Sprite First
           </button>
           <div>
           <button onClick={handleReplay} className="bg-green-400 text-white px-3 py-1 mb-2 rounded ">
