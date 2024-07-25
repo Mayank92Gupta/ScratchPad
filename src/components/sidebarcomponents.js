@@ -7,7 +7,6 @@ export const motionComponents = [
     "Goto",
     "GotoSpecific",
     "SetX",
-    "SetY",
    
   ];
   

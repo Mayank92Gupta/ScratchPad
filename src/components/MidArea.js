@@ -141,6 +141,9 @@ export default function MidArea({
       {/* <BasicComponent container={containers} /> */}
       <BasicComponent container={newValues} />
       {/* {console.log(newValues[0])} */}
+      <h1 class="text-4xl font-extrabold text-gray-800 mb-6 text-center">
+  Drag Components to Container
+</h1>
       <button style={buttonStyle} onClick={addContainer}>
         <FontAwesomeIcon icon={faPlus} />
         Container

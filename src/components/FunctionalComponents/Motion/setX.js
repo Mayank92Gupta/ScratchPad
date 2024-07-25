@@ -28,21 +28,21 @@ const SetX = ({ value, setValue }) => {
   const handleInputChange = (e) => {
     const inputValue = e.target.value;
     if (/^-?\d+$/.test(inputValue)) {
-      setValue(parseInt(inputValue));
+      setSteps(parseInt(inputValue));
     } else {
-      setValue(0);
+      setSteps(0);
     }
   };
 
   return (
     <div style={parentContainerStyle}>
     <div className="bg-blue-400 rounded-md p-1 z-0 flex items-center relative">
-      <p className="text-white text-xs mr-2 pt-1">Set X  {" "}</p>
+      <p className="text-white text-xs mr-2 pt-1">Set Size {" "}</p>
       <div className="flex-1">
         <input
           id='setsize'
           type="text"
-          placeholder="Enter Steps"
+          placeholder="Enter Size"
           className="p-1 rounded-md w-full text-xs border-none"
           value={steps}
           onChange={handleInputChange}

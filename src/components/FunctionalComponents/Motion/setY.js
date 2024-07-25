@@ -28,9 +28,9 @@ const SetX = ({ value, setValue }) => {
   const handleInputChange = (e) => {
     const inputValue = e.target.value;
     if (/^-?\d+$/.test(inputValue)) {
-      setValue(parseInt(inputValue));
+      setSteps(parseInt(inputValue));
     } else {
-      setValue(0);
+      setSteps(0);
     }
   };
 
