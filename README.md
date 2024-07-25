@@ -57,7 +57,7 @@ To get started with ScratchPad, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/Mayank92Gupta/ScratchPad.git
     ```
 
 2. Navigate into the project directory:
