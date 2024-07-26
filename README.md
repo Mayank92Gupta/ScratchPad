@@ -4,6 +4,18 @@
 
 ScratchPad is an interactive tool designed to manage and manipulate objects on a canvas. It includes features for motion and appearance, with draggable functionality and a history of movements for advanced interaction.
 
+![alt text](https://github.com/Mayank92Gupta/ScratchPad/blob/main/public/images/1.png)
+![alt text](https://github.com/Mayank92Gupta/ScratchPad/blob/main/public/images/2.png)
+![alt text](https://github.com/Mayank92Gupta/ScratchPad/blob/main/public/images/3.png)
+![alt text](https://github.com/Mayank92Gupta/ScratchPad/blob/main/public/images/4.png)
+
+# Live link :- https://scratch-pad-eight.vercel.app/
+
+### Usage Instruction:- 
+- Add Sprite First 
+- The Add Motion Components in Container-1 only. then Run
+- Similarly, Looks Component in Container-2 only. 
+- (I kept specified Containers)
 
 
 ## Tech Stack
@@ -53,7 +65,7 @@ To get started with ScratchPad, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/Mayank92Gupta/ScratchPad.git
     ```
 
 2. Navigate into the project directory:
